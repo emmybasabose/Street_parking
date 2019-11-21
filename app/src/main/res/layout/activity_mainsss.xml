@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityss">
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="161dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/tel"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="324dp"
+        android:layout_toEndOf="@+id/scan"
+        android:text="LOAD" />
+
+    <Button
+        android:id="@+id/importx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="123dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:text="Import"
+
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/tel"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/importx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:importantForAutofill="no"
+        android:text="Trial View" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="164dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/tel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="321dp"
+        android:text="Scan" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="391dp"
+        android:layout_height="305dp"
+        android:layout_below="@+id/tel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/colorAccent" />
+
+</RelativeLayout>

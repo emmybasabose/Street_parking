@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Street_parking</string>
+    <string name="register">Register Here</string>
+    <string name="staff_name">Name</string>
+    <string name="staff_password">Password</string>
+    <string name="tel">0703000000</string>
+    <string name="signup">Register</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Street Parking</string>
+    <string name="nav_header_subtitle">emx_izo@developers</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+
+    <string name="menu_street">Street</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_share">Share</string>
+</resources>
